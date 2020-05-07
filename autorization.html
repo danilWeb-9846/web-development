@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang=ru dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <section class="modal modal-login">
+      <h2>личный кабинет</h2>
+      <p>введите пожалуйсто свой логи и пароль</p>
+      <form class="login-form" action="index.html" method="post">
+        <fieldset>
+          <div class="">
+            <input type="text" id="user-name" name="name" placeholder="логин">
+            <label for="user-name">имя</label>
+          </div>
+          <div class="">
+            <input type="password" id="user-pass" name="pass" value="" placeholder="пароль">
+            <label for="user-pass">пароль</label>
+          </div>
+          <div class="">
+            <input class="login-checkbox" type="checkbox" id="remember" name="remember" value="" checked>
+            <label for="remember">запомнить меня</label>
+            <a class="restore" href="#">я забыл пароль!</a>
+          </div>
+          <button type="submit" name="">войти</button>
+          <button type="button" name="">
+            <img src="img/form_autorization/close_btn.svg" alt="закрыть форму входа">
+          </button>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>

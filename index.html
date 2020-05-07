@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Маазин барбершоп</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+          <div class="container">
+            <ul class="site-navigation">
+              <li><a href="#">информация</a></li>
+              <li><a href="#">новости</a></li>
+              <li><a href="#">прайс-лист</a></li>
+              <li><a href="#">магазин</a></li>
+              <li><a href="#">контакты</a></li>
+            </ul>
+            <ul class="user-navigation">
+              <li>
+                <button cursor class="button" type="button">
+                <img src="img/login.svg" alt="">вход</button>
+              </li>
+            </ul>
+        </div>
+        <a href="#" class="main-header-logo">
+          <img src="img/index-logo.png" width="371" height="155" alt="Логотип Барадинский Барбершоп">
+        </a>
+      </nav>
+      <section class="modal modal-login">
+      <div class="container">
+        <h2>личный кабинет</h2>
+        <p>введите пожалуйсто свой логи и пароль</p>
+        <form class="login-form" action="index.html" method="post">
+          <fieldset>
+            <div class="">
+              <input type="text"  name="name" placeholder="логин" required>
+              <div class="login-text-icon">
+                <div class="">
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <input type="password" name="pass" value="" placeholder="пароль" required>
+              <div class="login-pass-icon">
+                <div class="">
+                </div>
+              </div>
+            </div>
+            <div class="login-remember-helper">
+              <div class="">
+                <label for="">
+                  <input class="login-checkbox" type="checkbox"  name="remember" value="" checked>
+                  <span class="checkbox-indicator"></span>
+                  <p>запомните меня</p>
+                </label>
+              </div>
+              <a class="restore" href="#">я забыл пароль!</a>
+            </div>
+            <div class="login-btn">
+              <button class="button" type="submit" name="">войти</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      </section>
+    </header>
+
+    <main class="main-container">
+      <section class="feature">
+        <ul class="feature-list">
+          <li class="feature-item">
+            <h2>Быстро</h2>
+            <p>
+               Мы делаем работу быстро!два часа <br>
+               пролетят не заметно и вы-счастливый <br>
+               обладатель стильной стрижки-минутки
+           </p>
+           <img  src="img/icon-item.svg" src="иконка">
+          </li>
+          <li class="feature-item">
+            <h2>Круто</h2>
+            <p>
+               забудьте как вы стриглись раньше. <br>
+               мы сделаем из вас звезду футбола или кино! <br>
+               Во всяком случае внешне.
+           </p>
+           <img  src="img/icon-item.svg" src="иконка">
+          </li>
+          <li class="feature-item">
+            <h2>дорого</h2>
+            <p>
+              Наши мастера-профессионалы своего дела и <br>
+              не могут стоить дешево.к тому же, разве цена <br>
+              не дает определенный статус?
+            </p>
+            <img  src="img/icon-item.svg" src="иконка">
+          </li>
+        </ul>
+      </section>
+      <div class="index-columns">
+          <section class="news">
+            <h2>новости</h2>
+            <ul class="news-list">
+              <li class="news-item">
+                <p>
+                  нам наконец завезли ягермайстер!теперь вы можете <br>
+                  пропустить стаканчик во время стрижки
+                </p>
+                <time datetime="2019-02-22">11 января</time>
+              </li>
+              <li class="news-item">
+                <p>
+                  а нашей команде пополнение, борис бритва стригунец, <br>
+                  обладатель множества титулов и наград пополнил наши <br>
+                  стройные ряды
+                </p>
+                <time datetime="2020-03-23">18 января</time>
+              </li>
+            </ul>
+            <a class="button" href="#">все новости</a>
+          </section>
+          <img class="img_replace" width="8px" height="278px" src="img/replace.png" alt="replace">
+          <section class="gallery">
+            <h2>Фотогаллерея</h2>
+            <div class="gallery-content">
+              <figure>
+                <img src="img/gallery.jpg" width="300px" height="178px" alt="фото галереи">
+              </figure>
+              <div class="gallery-btn">
+                <button class="button" type="button" name="button">назад</button>
+                <button class="button" type="button" name="button2">вперед</button>
+              </div>
+            </div>
+          </section>
+      </div>
+      <div class="index-columns">
+        <section class="contacts">
+          <h2>контактная информация</h2>
+          <p>
+            барбершоп бординский <br>
+            адрес: Г. сАНКТ-ПЕТЕРбург, б.Конюшенная, д. 19\8 <br>
+            телефон: +7(495)666-02-66
+          </p>
+          <p>
+            время работы: <br>
+            пн-пт: с 10:00 до 22:00 <br>
+            сб-вс: c 10:00 до 19:00
+          </p>
+          <div class="contacts-btn">
+            <button class="button" type="button" name="button">как проехать</button>
+            <button class="button" type="button" name="button">обратная связь</button>
+          </div>
+        </section>
+        <img class="img_replace" width="8px" height="278px" src="img/replace.png" alt="replace">
+        <section class="shedulle">
+          <h2>записаться</h2>
+          <p class="shedule-info">
+            укажите желаемую дату и время и мы <br>свяжемся с вами для подтверждения брони
+          </p>
+          <form class="shedulle-form" action="index.html" method="post">
+            <div class="shedule-item">
+              <label for="user-date">дата</label>
+              <input type="date" id="user-date" name="user-date" value="">
+            </div>
+            <div class="shedule-item">
+              <label for="user-time">время</label>
+              <input type="time" id="user-time" name="user-time" value="">
+            </div>
+            <div class="shedule-item">
+              <label class="label-ots" for="user-name">ваше имя</label>
+              <input type="text" id="user-name" placeholder="Борода" name="user-name" value="">
+            </div>
+            <div class="shedule-item">
+              <label  for="user-phone">телефон</label>
+              <input type="text" id="user-phone" placeholder="+7 123 456-78-90" name="user-phone" value="">
+            </div>
+            <button class="button" type="submit" name="button">отправить</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container">
+        <p class="footer-adress">
+          барбершоп "барадинский" <br>
+          адрес: Г. сАНКТ-ПЕТЕРбург, б.Конюшенная, д. 19\8 <br>
+          <a href="#">как нас найти?</a><br>
+          телефон: +7 (496) 666-02-66
+        </p>
+        <div class="footer-social">
+          <p>давай дружить</p>
+          <ul class="social-icon">
+            <li><a class="social-button" href="#"></a></li>
+            <li><a class="social-button" href="#"></a></li>
+            <li><a class="social-button" href="#"></a></li>
+          </ul>
+        </div>
+        <p class="copyright">
+          <span>разработанно</span><br>
+          <a class="button" href="#">html academy</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

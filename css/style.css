@@ -1,0 +1,638 @@
+body{
+  margin:0px;
+  padding: 0px;
+  font-family: 'PT Sans Narrow',Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #f7f4f1;
+  background-color: #000000;
+  background-image: url("../img/background/background-full.png");
+  background-position:0px 60px;;
+  background-repeat:no-repeat;
+}
+a{
+  text-decoration: none;
+}
+img{
+  width: 100%;
+  height:auto;
+}
+.button{
+  color:white;
+  font:inherit;
+  cursor: pointer;
+  background-color: #000000;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border:none;
+}
+.button:hover,
+.button:focus,
+.button:active
+{
+  background-color: #242424;
+}
+
+.main-navigation{
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+}
+.site-navigation,
+.user-navigation
+{
+   list-style: none;
+   margin: 0px ;
+   padding: 0px;
+}
+
+.site-navigation a,
+.user-navigation a
+{
+  color: #ffffff;
+}
+.site-navigation a{
+  display: block;
+  margin: 0;
+  padding: 20px 20px;
+}
+
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus
+{
+  background-color: #242424;
+}
+
+.feature-list{
+  list-style: none;
+}
+
+.feature-list {
+  text-align: center;
+}
+
+.feature-item h2,
+.index-columns h2
+{
+  font-size: 30px;
+  line-height: 42px;
+}
+.index-columns{
+  color: #000000;
+  background-color: white;
+  background-image: url("../img/background/back_index_columns.png");
+  background-position: 0 0;
+  background-repeat:repeat;
+}
+
+.news-list{
+  list-style: none;
+}
+.news-item time{
+  text-transform: none;
+}
+.shedule-item input{
+  font:inherit;
+  border: 2px solid #000101;
+  background-color: transparent;
+}
+.shedule-item input:focus{
+  border-color: #663d15;
+}
+.main-footer
+{
+  color: #ffffff;
+  background-color: black;
+  background-image: url(../img/footer.png);
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+.footer-social{
+  text-align: center;
+}
+.footer-social ul
+{
+  list-style: none;
+}
+.social-button {
+  color:#ffffff;
+}
+
+.copyright{
+  text-align: center;
+}
+.copyright .button:hover,
+.copyright .button:focus
+{
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"]
+{
+  font:inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  border: 2px solid #000101;
+  background-color: #f9f6f3;
+}
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus
+{
+  border-color: #663d15;
+}
+.login-checkbox:hover,
+.login-checkbox:focus
+{
+  color: #663d15;
+}
+.restore{
+  text-decoration: underline;
+  color:black;
+}
+
+/*header*/
+
+
+.user-navigation{
+  display: block;
+  margin:0px;
+}
+.user-navigation img{
+  height: 15px;
+  width: 15px;
+  position:absolute;
+  top:23px;
+  left:19px;
+
+}
+.user-navigation button{
+
+  position: relative;
+  cursor: pointer;
+  display: block;
+  margin:0px;
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.main-navigation
+{
+  margin:0 auto;
+  width: 100%;
+  max-width: 940px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items:center;
+}
+.main-navigation .container
+{
+  background-color: black;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+
+}
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-header-logo
+{
+  margin-top: 60px;
+}
+
+/*main content*/
+.main-container{
+  margin-top: 79px;
+
+}
+.feature{
+  margin:0 auto;
+  margin-bottom: 85px;
+}
+.feature-list{
+  display: flex;
+  margin:0 auto;
+  padding-left: 0px;
+  max-width: 906px;
+  justify-content: space-between;
+}
+
+.feature-item{
+    position:relative;
+}
+.feature-item h2{
+  margin: 0px;
+  margin-bottom: 63px;
+}
+.feature-item p{
+  display: block;
+  margin: 0px;
+}
+.feature-item img{
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 30px;
+  height: auto;
+  top:28%;
+  margin-left: -16px;
+}
+
+/*news gallery*/
+
+.index-columns
+{
+  max-width: 907px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 36px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.img_replace{
+  position: absolute;
+  width:8px;
+  height: 278px;
+  top: 25%;
+  left:50%;
+}
+.news{
+  padding-left: 80px;
+  padding-top: 55px;
+  padding-bottom: 50px;
+}
+.news p{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 18px;
+  margin-bottom: 7px;
+}
+.news time:nth-child(2)
+{
+  display: block;
+  margin-bottom: 32px;
+}
+.news .news-list{
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+.news a{
+  padding:  17px 34px;
+}
+.news h2,
+.gallery h2{
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+.gallery{
+  text-align: left;
+}
+.gallery-content
+{
+  text-align: center;
+}
+.gallery-content figure{
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+.gallery{
+  padding-right: 80px;
+  padding-top: 50px;
+}
+.gallery h2{
+  margin-bottom: 20px;
+}
+.gallery-content button{
+  cursor: pointer;
+  padding: 16px  50px;
+}
+.gallery-btn{
+  display: flex;
+  justify-content: space-between;
+}
+/*contacts */
+
+.contacts h2{
+  margin-top: 54px;
+  margin-left: 81px;
+}
+.contacts p{
+  margin-top: 29px;
+  margin-left: 81px;
+}
+
+
+.contacts button{
+  cursor: pointer;
+  margin:0px;
+  padding: 16px 30px;
+}
+.contacts-btn{
+  margin-left:80px;
+  margin-top: 28px;
+  width: auto;
+  height: auto;
+}
+.contacts-btn button:first-child{
+  margin-right: 20px;
+}
+/*sheduler*/
+
+
+.shedulle h2,
+.shedulle p
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+.shedulle
+{
+  margin-top: 54px;
+  margin-right: 88px;
+}
+.shedulle h2{
+  margin-bottom: 28px;
+}
+
+.shedulle-form{
+  max-width: 300px;
+  min-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.shedulle input{
+  padding: 0px;
+  font-size: 18px;
+  margin-right: 10px;
+  width: 125px;
+  height: 43px;
+  border: 2px solid #000101;
+  padding-left: 10px;
+}
+.shedule-item label{
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 17px;
+  margin-bottom:8px;
+  margin-top:16px;
+}
+.shedulle button{
+  padding:  16px 113px;
+  margin-top: 20px;
+}
+
+
+/*footer*/
+.main-footer
+{
+  margin-top: 65px;
+  height: auto;
+}
+.main-footer .container{
+  display:flex;
+  max-width:900px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top: 48px;
+  padding-bottom: 39px;
+}
+.footer-adress a{
+  color: #ffffff;
+  text-decoration: underline;
+}
+ .footer-social p,
+ .footer-social ul{
+   margin: 0px;
+   padding: 0px;
+   width: 141px;
+   margin-top: 20px;
+ }
+.footer-social ul li{
+  margin:auto;
+  display:inline-block;
+  background-color: #000000;
+  text-align: center;
+  vertical-align: middle;
+  width: 43px;
+  height: 43px;
+}
+
+.footer-social ul li:first-child a{
+    width: 27px;
+    height: 15px;
+    padding-top: 15px;
+    padding-left: 9px;
+    padding-right: 7px;
+    padding-bottom: 13px;
+    content: url("../img/vk.png");
+}
+.footer-social ul li:nth-child(2) a{
+    width: 11px;
+    height: 22px;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    content: url("../img/facebook.png");
+}
+.footer-social ul li:nth-child(3) a{
+    width: 20px;
+    height: 20px;
+    padding-top: 11px;
+    padding-left: 13px;
+    padding-right: 10px;
+    padding-bottom: 12px;
+    content: url("../img/instagram.png");
+}
+.main-footer .footer-social
+{
+  margin: 0px;
+  margin-left: 93px;
+
+}
+.main-footer .copyright
+{
+  padding: 0px;
+  margin:0px;
+  margin-top: 15px;
+  margin-left: auto;
+  width: 150px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-footer .copyright a{
+
+  padding-top: 14px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+/*modal autorization*/
+
+{
+  color: red;
+}
+.modal{
+  /*warning*/
+  z-index: 100;
+  position: fixed;
+  top: -35px;
+  left:50%;
+
+
+  color:black;
+  width: 300px;
+  height: 217px;
+  font-weight: bold;
+  background-color: #ffffff;
+  background-image: url("../img/form_autorization/background.png");
+  background-repeat: repeat;
+  background-position:center;
+  margin: 100px auto;
+  border:1px solid transparent;
+  box-shadow: 0 30px 50px rgba(0, 1, 1, 0.75);
+  padding-top:50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 58px;
+}
+.modal .container{
+  width: 300px;
+  height: 255px;
+  padding: 0px;
+
+}
+.modal .container h2,
+.modal .container p{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.modal .container  p{
+  margin-bottom: 6px;
+}
+.modal .container  h2{
+  margin-bottom: 8px;
+}
+.modal .container fieldset{
+  maegin:0px;
+  padding: 0px;
+  border:none;
+}
+.modal .container fieldset input[type="text"],
+.modal .container fieldset input[type="password"]{
+  width: 245px;
+  height: 43px;
+  padding-left: 10px;
+  border-right: none;
+  position: relative;
+}
+.modal .container fieldset div:nth-child(2) input{
+  margin-top: 9px;
+}
+
+
+.modal .container .login-text-icon,
+.modal .container .login-pass-icon{
+  display: inline-block;
+  border: 2px solid #000101;
+  border-left: none;
+  padding: 8px 5px 8px 5px;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  background-color: #f9f6f3;
+
+}
+.modal .container .login-pass-icon
+{
+  margin-top: 9px;
+}
+.login-remember-helper{
+  position: relative;
+}
+.modal .checkbox-indicator{
+  position: absolute;
+  top: 3px;
+  left: 0px;
+  display: inline-block;
+  border: 2px solid black;
+  width: 12px;
+  height: 12px;
+
+}
+.modal input[type="checkbox"]{
+margin-left: 10px;
+overflow: hidden;
+z-index: 5;
+}
+.modal input[type="checkbox"]:checked + .checkbox-indicator::before,
+.modal input[type="checkbox"]:checked + .checkbox-indicator::after
+{
+  content: "";
+  width: 12px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  top: 5px;
+}
+.modal input[type="checkbox"]:checked + .checkbox-indicator::before{
+  transform: rotate(45deg);
+}
+.modal input[type="checkbox"]:checked + .checkbox-indicator::after{
+  transform: rotate(-45deg);
+}
+.login-text-icon div{
+  content: url("../img/form_autorization/user.png");
+  width: 13px;
+  height: 13px;
+  margin:7px auto;
+}
+.login-pass-icon div{
+  content: url("../img/form_autorization/lock.png");
+  width: 13px;
+  height: 13px;
+  margin:7px auto;
+}
+.login-remember-helper div input,
+.login-remember-helper div p{
+  display: inline-block;
+}
+.login-remember-helper div input{
+  margin-right: 7px;
+
+}
+.login-remember-helper
+{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.login-form fieldset .login-btn button:first-child{
+  width: 298px;
+  height: 43px;
+}
+.login-form fieldset .login-btn button:last-child{
+  position: absolute;
+}
